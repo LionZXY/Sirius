@@ -10,17 +10,15 @@ import androidx.compose.ui.tooling.preview.Preview
 
 @Preview(
     showBackground = true,
-    showSystemUi = true
 )
 @Composable
 fun WithoutBoxComposable() {
     Text("Первый текст")
-    Text("Второй текст")
+    Text("Второй текст .    фвывфыв")
 }
 
 @Preview(
     showBackground = true,
-    showSystemUi = true
 )
 @Composable
 fun BoxComposable() {
@@ -32,19 +30,17 @@ fun BoxComposable() {
 
 @Preview(
     showBackground = true,
-    showSystemUi = true
 )
 @Composable
 fun BoxSecondComposable() {
     Box(contentAlignment = Alignment.Center) {
-        Text("Первый текст")
+        Text("Первый текст         ")
         Text("Второй текст")
     }
 }
 
 @Preview(
     showBackground = true,
-    showSystemUi = true
 )
 @Composable
 fun RowComposable() {
@@ -56,7 +52,6 @@ fun RowComposable() {
 
 @Preview(
     showBackground = true,
-    showSystemUi = true
 )
 @Composable
 fun ColumnComposable() {

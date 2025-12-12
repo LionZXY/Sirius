@@ -7,10 +7,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
+@Preview
 fun Counter() {
-    var counter by remember { mutableStateOf(0) }
+    var counter: Int by remember { mutableStateOf(0) }
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center

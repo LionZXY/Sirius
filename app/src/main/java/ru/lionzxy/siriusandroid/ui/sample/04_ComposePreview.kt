@@ -8,12 +8,11 @@ import androidx.compose.ui.tooling.preview.Preview
 @Composable
 fun HelloWorld() {
     Box() {
-        Text("Hello World")
+        Text("Привет как дела")
     }
 }
 
 @Preview(
-    showSystemUi = true,
     showBackground = true
 )
 @Composable

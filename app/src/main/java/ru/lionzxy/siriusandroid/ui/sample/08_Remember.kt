@@ -10,12 +10,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 
 @Preview(
-    showSystemUi = true,
     showBackground = true
 )
 @Composable
 fun Remember() {
-    var counter by remember { mutableStateOf(0) }
+    var counter = 0
     val timestamp = remember {
         System.currentTimeMillis()
     }

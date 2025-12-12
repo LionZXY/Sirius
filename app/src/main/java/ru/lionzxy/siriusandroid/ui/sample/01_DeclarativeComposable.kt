@@ -7,8 +7,10 @@ import androidx.compose.runtime.Composable
 @Composable
 fun ImperativeComposable(isActive: Boolean) {
     Box {
-      if (isActive) {
-          Text("Лампочка горит!")
-      } else Text("Лампочка не горит!")
+        if (isActive) {
+            Text("Лампочка горит!")
+        } else {
+            Text("Лампочка не горит!")
+        }
     }
 }
