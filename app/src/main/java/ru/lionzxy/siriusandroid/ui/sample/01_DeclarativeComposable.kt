@@ -5,7 +5,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 
 @Composable
-fun ImperativeComposable(isActive: Boolean) {
+fun DeclarativeComposable(isActive: Boolean) {
     Box {
         if (isActive) {
             Text("Лампочка горит!")
